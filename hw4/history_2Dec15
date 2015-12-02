@@ -1,0 +1,225 @@
+    1  ls
+    2  git clone git@github.com/abeckman/hw-sinatra-saas-hangperson
+    3  git clone git@github.com:abeckman/hw-sinatra-saas-hangperson
+    4  ls
+    5  cd hw-sinatra-saas-hangperson/
+    6  ls
+    7  more Gemfile
+    8  more README.md 
+    9  less README.md 
+   10  grep create README.md 
+   11  less README.md 
+   12  history
+   13  exit
+   14  less hw-bdd-cucumber/rottenpotatoes/app/views/movies/index.html.haml 
+   15  exit
+   16  history
+   17  git clone git@github.com:abeckman/hw-bdd-cucumber.git
+   18  cd hw-bdd-cucumber/
+   19  ls
+   20  cd rottenpotatoes/
+   21  ls
+   22  ls app/views/movies/index.html.haml 
+   23  more app/views/movies/index.html.haml
+   24  du -s ../..
+   25  du -s ../../*
+   26  more app/views/movies/index.html.haml
+   27  cd rottenpotatoes-rails-intro/
+   28  more ../hw-bdd-cucumber/rottenpotatoes/app/controllers/movies_controller.rb 
+   29  exit
+   30  history
+   31  cd rottenpotatoes-rails-intro/
+   32  more README.rdoc 
+   33  ls
+   34  git status
+   35  cd ../hw-rails-intro/
+   36  ls
+   37  more README.md
+   38  ls -l ..
+   39  ls -l ../hw-bdd-cucumber/
+   40  ls -l ../hw-bdd-cucumber/rottenpotatoes/
+   41  date
+   42  tzone
+   43  timezone
+   44  man date
+   45  locale
+   46  history
+   47  exit
+   48  grep rails his*
+   49  ls
+   50  history
+   51  rails server
+   52  ls
+   53  cd hw-bdd-cucumber/
+   54  rails s
+   55  grep rake ../history_7Oct15 
+   56  rake s
+   57  rails server
+   58  more ../history_7Oct15 
+   59  cd ../rottenpotatoes-rails-intro/
+   60  ls
+   61  rails server
+   62  rails s -p $PORT -b $IP
+   63  cd ..
+   64  ls
+   65  more README.md 
+   66  ls
+   67  cd hw-bdd-cucumber/
+   68  ls
+   69  less README.md 
+   70  less myrottenpotatoes/features/support/paths.rb 
+   71  ls
+   72  cd mybdd-cucumber/
+   73  ls
+   74  cd rottenpotatoes/
+   75  ls
+   76  cd features/
+   77  ls
+   78  ls step_definitions/
+   79  more step_definitions/movie_steps.rb 
+   80  more filter_movie_list.feature 
+   81  more step_definitions/movie_steps.rb 
+   82  history
+   83  cd ..
+   84  hsitory
+   85  history
+   86  cd workspace/
+   87  cd rottenpotatoes-rails-intro/
+   88  more app/views/movies/index.html.haml 
+   89  ls ..
+   90  less ../hw-bdd-cucumber/rottenpotatoes/app/controllers/movies_controller.rb 
+   91  less ../hw-bdd-cucumber/rottenpotatoes/app/models/movie.rb 
+   92  cd ../myrottenpotatoes
+   93  vim Gemfile
+   94  cd ../hw-bdd-cucumber/rottenpotatoes/
+   95  ls
+   96  cd ../../myrottenpotatoes
+   97  cucumber features/AddMovie.feature 
+   98  cucumber features/search_tmdb.feature 
+   99  rake run cucumber features/search_tmdb.feature 
+  100  rake cucumber features/search_tmdb.feature 
+  101  cucumber features/search_tmdb.feature 
+  102  cd ../hw-bdd-cucumber/rottenpotatoes/
+  103  ls features
+  104  more features/sort_movie_list.feature 
+  105  ls features
+  106  less features/filter_movie_list.feature 
+  107  ls features
+  108  ls features/step_definitions/
+  109  more features/step_definitions/movie_steps.rb 
+  110  ls features
+  111  cucumber features/filter_movie_list.feature 
+  112  ls features/support/
+  113  less features/support/env.rb
+  114  less features/support/selectors.rb 
+  115  less features/sort_movie_list.feature 
+  116  cucumber features/filter_movie_list.feature 
+  117  more features/step_definitions/movie_steps.rb 
+  118  less features/sort_movie_list.feature 
+  119  cucumber features/filter_movie_list.feature 
+  120  ls features
+  121  more features/filter_movie_list.feature 
+  122  vi features/filter_movie_list.feature
+  123  vim features/filter_movie_list.feature
+  124  ls
+  125  ls features
+  126  rm features/filter_movie_list.feature
+  127  vim features/filter_movie_list.feature
+  128  cd ..
+  129  cd hw-bdd
+  130  cd hw-bdd-tdd-cycle/
+  131  ls
+  132  cd rottenpotatoes/
+  133  ls
+  134  diff Gemfile ../../myrottenpotatoes/Gemfile
+  135  less Gemfile
+  136  touch app/views/movies/search_tmdb.html.haml
+  137  ls app/views/movies/
+  138  more ../../myrottenpotatoes/app/models/movie.rb 
+  139  ls ../../myrottenpotatoes
+  140  ls ../../myrottenpotatoes/features/
+  141  cd ..
+  142  cd rottenpotatoes/
+  143  zip -r hw4.zip app/ config/ db/migrate features/ spec/ Gemfile Gemfile.lock 
+  144  ls
+  145  cd ..
+  146  mv rottenpotatoes/ hw4
+  147  ls
+  148  zip -r hw4.zip hw4/app/ hw4/config/ hw4/db/migrate features/ hw4/spec/ hw4/Gemfile hw4/Gemfile.lock 
+  149  mkdir tmp
+  150  ls
+  151  cd tmp
+  152  tar -xvf ../hw4.zip
+  153  zip ../hw4.zip 
+  154  unzip ../hw4.zip
+  155  ls
+  156  ls -l
+  157  rm -rf hw4
+  158  cd ..
+  159  rmdir tmp
+  160  ls
+  161  ls -l hw4.zip
+  162  exit
+  163  cd hw-bdd-cucumber/rottenpotatoes/
+  164  cucumber features/filter_movie_list.feature 
+  165  ls
+  166  zip -r features.zip features
+  167  cucumber features/filter_movie_list.feature 
+  168  zip -r features.zip features
+  169  cucumber features/filter_movie_list.feature 
+  170  zip -r features.zip features
+  171  cucumber features/sort_movie_list.feature 
+  172  zip -r features.zip features
+  173  cucumber features/sort_movie_list.feature 
+  174  cucumber features/filter_movie_list.feature 
+  175  cucumber features/sort_movie_list.feature 
+  176  cucumber features/filter_movie_list.feature 
+  177  zip -r features.zip features
+  178  cucumber features/filter_movie_list.feature 
+  179  zip -r features.zip features
+  180  cucumber features/filter_movie_list.feature 
+  181  ls features
+  182  cp features/filter_movie_list.feature features/filter_movie_list.feature.old
+  183  cucumber features/filter_movie_list.feature 
+  184  ls
+  185  mkdir tmp
+  186  cp features.zip tmp
+  187  cd tmp
+  188  ls
+  189  unzip features.zip 
+  190  ls
+  191  cd features/
+  192  ls
+  193  cp filter_movie_list.feature ../../features/filter_movie_list.feature.old
+  194  cd
+  195  cd workspace/hw-bdd-cucumber/rottenpotatoes/
+  196  zip -r features.zip features
+  197  ls
+  198  cp features/filter_movie_list.feature features/filter_movie_list.feature.mike
+  199  cp features/filter_movie_list.feature.old features/filter_movie_list.feature
+  200  cd workspace/hw-bdd-cucumber/rottenpotatoes/
+  201  cucumber features/filter_movie_list.feature 
+  202  cucumber features/sort_movie_list.feature 
+  203  ls features
+  204  rm features/*.old features/*.mike
+  205  ls features
+  206  zip -r features.zip features
+  207  cucumber features/sort_movie_list.feature 
+  208  cucumber features/filter_movie_list.feature 
+  209  zip -r features.zip features
+  210  cucumber features/filter_movie_list.feature 
+  211  zip -r features.zip features
+  212  cd
+  213  exit
+  214  cd hw-bdd-tdd-cycle/hw4
+  215  rails s -p $PORT -b $IP
+  216  git push origin master
+  217  git push git@github.com:abeckman/hw-bdd-tdd-cycle.git master
+  218  git push master
+  219  git push origin
+  220  git pull origin
+  221  ls -l README
+  222  ls -l ..
+  223  less Geme
+  224  less Gemfile
+  225  history > history_2Dec15
