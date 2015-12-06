@@ -4,10 +4,10 @@ describe MoviesController do
   describe 'find with same director' do
     before :each do
       @fake_results = [double('movie1'), double('movie2')]
-      FactoryGirl.create(:movie, :title => 'ThX-1138', :rating => 'R', :director => "George Lucas")
-      FactoryGirl.create(:movie, :title => 'Star Wars', :rating => 'PG', :director => "George Lucas")
-      FactoryGirl.create(:movie, :title => 'Blade Runner', :rating => 'PG', :director => "Ridley Scott")
-      FactoryGirl.create(:movie, :title => 'Alien', :rating => 'R', :director => "")
+      Movie.create(:title => 'ThX-1138', :rating => 'R', :director => "George Lucas")
+      Movie.create(:title => 'Star Wars', :rating => 'PG', :director => "George Lucas")
+      Movie.create(:title => 'Blade Runner', :rating => 'PG', :director => "Ridley Scott")
+      Movie.create(:title => 'Alien', :rating => 'R', :director => "")
     end 
     context 'when the specified movie has a director' do
       it 'should call the model method to find movies with a director match' do

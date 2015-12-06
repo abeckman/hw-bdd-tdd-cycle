@@ -3,10 +3,10 @@ require 'spec_helper'
 describe Movie do
   describe 'searching by one movies director' do
     before :each do
-      FactoryGirl.create(:movie, :title => 'ThX-1138', :rating => 'R', :director => "George Lucas")
-      FactoryGirl.create(:movie, :title => 'Star Wars', :rating => 'PG', :director => "George Lucas")
-      FactoryGirl.create(:movie, :title => 'Blade Runner', :rating => 'PG', :director => "Ridley Scott")
-      FactoryGirl.create(:movie, :title => 'Alien', :rating => 'R', :director => "")
+      Movie.create(:title => 'ThX-1138', :rating => 'R', :director => "George Lucas")
+      Movie.create(:title => 'Star Wars', :rating => 'PG', :director => "George Lucas")
+      Movie.create(:title => 'Blade Runner', :rating => 'PG', :director => "Ridley Scott")
+      Movie.create(:title => 'Alien', :rating => 'R', :director => "")
     end 
     it 'should find movies by the same director' do
       expect(Movie.where(director: "George Lucas").length).to eq(2)
